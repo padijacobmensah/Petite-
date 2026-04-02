@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Petite Dejeuner | Luxury Brunch & Coffee</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #0f0f0f;
+  color: #eee;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+  url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: gold;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: gold;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+section {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid gold;
+}
+
+.price {
+  color: gold;
+  font-weight: bold;
+}
+
+footer {
+  background: black;
+  text-align: center;
+  padding: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#menu">Menu</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header>
+  <div>
+    <h1>Petite Dejeuner</h1>
+    <p>Luxury Coffee & Brunch Experience in Accra</p>
+  </div>
+</header>
+
+<section>
+<h2>About Us</h2>
+<p>Welcome to Petite Dejeuner — where breakfast meets luxury. Enjoy handcrafted meals, premium coffee, and a cozy ambiance in the heart of Accra.</p>
+</section>
+
+<section id="menu">
+<h2>Our Menu</h2>
+
+<h3>Breakfast & Specials</h3>
+<div class="menu-grid">
+<div class="card">Pancakes <span class="price">GH₵30</span></div>
+<div class="card">Waffles <span class="price">GH₵30</span></div>
+<div class="card">Crepe <span class="price">GH₵30</span></div>
+<div class="card">French Toast Meal <span class="price">GH₵80</span></div>
+<div class="card">Cinnamon Grilled Cheese <span class="price">GH₵60</span></div>
+<div class="card">Chicken & Waffles <span class="price">GH₵85</span></div>
+<div class="card">Breakfast Platter <span class="price">GH₵200</span></div>
+</div>
+
+<h3>Kids Menu</h3>
+<div class="menu-grid">
+<div class="card">Pancakes <span class="price">GH₵25</span></div>
+<div class="card">Waffles <span class="price">GH₵25</span></div>
+<div class="card">Crepes <span class="price">GH₵25</span></div>
+<div class="card">Half Stack <span class="price">GH₵60</span></div>
+<div class="card">Juice <span class="price">GH₵26</span></div>
+</div>
+
+<h3>Drinks</h3>
+<div class="menu-grid">
+<div class="card">Coffee <span class="price">GH₵28</span></div>
+<div class="card">Iced Tea <span class="price">GH₵28</span></div>
+<div class="card">Hot Chocolate <span class="price">GH₵26</span></div>
+<div class="card">Orange Juice <span class="price">GH₵26</span></div>
+<div class="card">Pineapple Juice <span class="price">GH₵26</span></div>
+</div>
+
+<h3>Toppings & Sides</h3>
+<div class="menu-grid">
+<div class="card">Extra Syrup <span class="price">GH₵20</span></div>
+<div class="card">Extra Chicken <span class="price">GH₵40</span></div>
+<div class="card">Bacon Bits <span class="price">GH₵35</span></div>
+<div class="card">French Toast <span class="price">GH₵50</span></div>
+<div class="card">Extra Egg (2) <span class="price">GH₵20</span></div>
+</div>
+
+</section>
+
+<section id="contact">
+<h2>Contact & Location</h2>
+
+<p>📍 Odoi Beyeden St, Accra, Ghana</p>
+<p>📞 +233 25 633 0029 | 024 348 2373</p>
+<p>🕒 Mon–Fri: 9:00 AM – 5:00 PM</p>
+<p>🚫 Sat–Sun: Closed</p>
+
+<br>
+
+<a href="https://wa.me/233256330029" style="background:gold;color:black;padding:12px 20px;text-decoration:none;border-radius:5px;">
+Order via WhatsApp
+</a>
+
+</section>
+
+<footer>
+<p>© 2026 Petite Dejeuner | Luxury Breakfast Experience</p>
+</footer>
+
+</body>
+</html>
